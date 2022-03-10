@@ -1,3 +1,3 @@
 # Programmes de TP ALGO L1 MIASHS
-## Languages : Python
+## Language : Python
 ### Année : 2022
