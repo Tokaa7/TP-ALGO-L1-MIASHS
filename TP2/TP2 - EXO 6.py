@@ -29,6 +29,5 @@ y=heron(A,n)
 print(y[len(heronA)-1])
 print(np.sqrt(A))
 
-
 plt.plot(x,y,'ro')
 plt.show
