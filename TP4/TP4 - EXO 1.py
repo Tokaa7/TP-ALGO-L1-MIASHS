@@ -27,8 +27,15 @@ A=int(input("Nombre dont vous cherchez la racine :"))
   
 print(Newtonracine(1,0.00000001,A)) 
 
-y=Newtonracine(1, 0.00000001, 10)
+y=Newtonracine(1, 0.00000001, A)
 x=range(len(y))
+
+plt.axvline(0)
+plt.axhline(0)
+plt.xlabel("x")
+plt.ylabel("f (x)")
+
+plt.title(label="Calcul de la racine de A",fontsize=15,color="purple")
 
 plt.plot(x,y,'r')
 plt.show
