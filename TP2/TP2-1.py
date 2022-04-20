@@ -3,6 +3,7 @@
     TP2 - 1.Visualiser une suite de valeurs discrètes
 
 """
+
 import matplotlib.pyplot as plt
 
 def fibo_liste(n):
