@@ -11,7 +11,7 @@ def suiteVn(x,epsilon):
     n=1
     frac=(x**n)/n
     vv= v + frac
-    while(vv-v>epsilon):
+    while(abs(vv-v)>epsilon):
         v=vv
         n+=1
         frac*=x/n
