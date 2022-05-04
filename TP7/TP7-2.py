@@ -4,4 +4,6 @@
 
 """
 
-#A FAIRE
+import numpy as np
+
+A=np.array()
